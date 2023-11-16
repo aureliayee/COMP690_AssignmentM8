@@ -103,12 +103,44 @@
 // });
 
 //STEP 13
-movies = [['Moana', 1], ['Tangled', 2], ['Mulan', 3], ['Pocahontas', 4], ['Frozen', 5]];
+// movies = [['Moana', 1], ['Tangled', 2], ['Mulan', 3], ['Pocahontas', 4], ['Frozen', 5]]
+
+// for (let i = 0; i < movies.length; i++) {
+// 	let movieType = movies[i].filter((item) => {
+//     return typeof item === 'string'
+//   })
+//   console.log(`${movieType}`)
+// }
+
 
 //STEP 14
+// let employees = ['ZAK', 'JESSICA', 'MARK', 'FRED', 'SALLY']
+// const showEmployee = (names) => {
+//   for (let i = 0; i < names.length; i++) {
+//     console.log(names[i])
+//   }
+// }
+// showEmployee(employees)
 
 //STEP 15
+// let arr = [58, '', 'abcd', true, null, false, 0]
+// let filteredArr = arr.filter((item) => {
+// 	return item !== false && item !== null && item !== 0 && item !== ""
+// })
+// console.log(filteredArr)
+
 
 //STEP 16
+// let numArr = [1,2,3,4,5,6,7,8,9,10]
+// function randChoice(arr) {
+//   return arr[Math.floor(Math.random() * arr.length)]
+// }
+// console.log(randChoice(numArr))
+
 
 //STEP 17
+let numArr = [1,2,3,4,5,6,700,8,9,10]
+function largestNum(arr){
+  return Math.max.apply(null, arr);
+}
+console.log(largestNum(numArr))
